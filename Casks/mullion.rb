@@ -1,11 +1,11 @@
 cask "mullion" do
   version "1.0.0"
-  sha256 "188bd9752154b8570c57df9db3bcfa1d7a6efbdf140f0bb76abe6091a41ebd5e"
+  sha256 "e0b6888c117e4679407713f40c4ad13268addb4bc99812eae819f70e8acc76cf"
 
-  url "https://github.com/vhpoet/mullion/releases/download/v#{version}/Mullion-#{version}.dmg"
+  url "https://github.com/vhpoet/mullion-releases/releases/download/v#{version}/Mullion-#{version}.dmg"
   name "Mullion"
   desc "Keyboard-driven window snapping"
-  homepage "https://github.com/vhpoet/mullion"
+  homepage "https://github.com/vhpoet/mullion-releases"
 
   livecheck do
     url :url
